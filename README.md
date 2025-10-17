@@ -1,6 +1,5 @@
 # 🐍 Snake Game
-A simple yet classic Snake Game built using Python and Pygame. It recreates the nostalgic Snake game experience with smooth movement, colorful visuals, and real-time scoring.  
-The snake grows in length each time it eats food, making the game progressively more challenging. It’s a fun beginner-friendly project to understand game loops, collision detection, and keyboard event handling in Pygame.
+A simple yet classic Snake Game built using Python and Pygame. It recreates the nostalgic Snake game experience with smooth movement, colorful visuals, and real-time scoring. The snake grows in length each time it eats food, making the game progressively more challenging. It’s a fun beginner-friendly project to understand game loops, collision detection, and keyboard event handling in Pygame.
 ---
 
 ## ✨ Features
@@ -67,6 +66,8 @@ python game.py
 Below is an example of the game window when it’s running:
 
 ![Game Output](output.png)
+
+The game shows a green snake on a black background with red food blocks. The snake grows and the score updates when it eats food. The game ends if the snake hits the walls or itself.
 ---
 
 
