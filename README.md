@@ -1,5 +1,6 @@
 # 🐍 Snake Game
-A simple yet classic **Snake Game** built using **Python** and **Pygame**.Itrecreates the nostalgic Snake game experience with smooth movement, colorful visuals, and real-time scoring. The snake grows in length each time it eats food, making the game progressively more challenging. It’s a fun beginner-friendly project to understand **game loops**, **collision detection**, and **keyboard event handling** in Pygame.
+A simple yet classic Snake Game built using Python and Pygame. It recreates the nostalgic Snake game experience with smooth movement, colorful visuals, and real-time scoring.  
+The snake grows in length each time it eats food, making the game progressively more challenging. It’s a fun beginner-friendly project to understand game loops, collision detection, and keyboard event handling in Pygame.
 ---
 
 ## ✨ Features
@@ -17,7 +18,7 @@ A simple yet classic **Snake Game** built using **Python** and **Pygame**.Itrecr
 ### 1. Clone or download this repository
 
 ```
-git clone https://github.com/yoshithaa25/snake-game.git
+git clone https://github.com/yoshithaa25/game.git
 ```
 
 ### 2. Navigate to the project folder
@@ -25,4 +26,48 @@ git clone https://github.com/yoshithaa25/snake-game.git
 ```
 cd snake-game
 ```
+
+### 3. Install dependencies
+
+Make sure Python 3.x is installed, then install Pygame:
+
+```
+pip install pygame
+```
+
+### 4. Run the game
+
+```
+python game.py
+```
+
+---
+## 🎮 Controls
+
+| Key | Action |
+|-----|---------|
+| ⬆️ | Move Up |
+| ⬇️ | Move Down |
+| ⬅️ | Move Left |
+| ➡️ | Move Right |
+---
+
+## 🧠 How It Works
+
+- The game starts with a single-block snake on the screen.  
+- The snake continuously moves in the current direction.  
+- The player changes its direction using arrow keys.  
+- When the snake eats the red food, its length increases by one block and the score increases by 1.  
+- The game ends if the snake hits a wall or runs into its own body.  
+- The final score is displayed when the game is over.
+---
+
+## 🖼️ Example Output
+
+Below is an example of the game window when it’s running:
+
+![Game Output](output.png)
+---
+
+
 
